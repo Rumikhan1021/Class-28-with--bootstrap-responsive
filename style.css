@@ -1,0 +1,138 @@
+
+body,h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo img {
+    width: 90px;
+  }
+
+
+  .banner{
+    background-color: #f9f9ff;
+  }
+
+    /* Banner-section */
+
+  .banner-text p{
+    color: #adb0b6;
+    margin-bottom: 30px;
+  }
+  .banner-text h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .banner-text h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+  .banner-text .btn{
+      background-color:#8491ff;
+  }
+
+  .about-text .btn{
+    background-color:#8491ff; 
+  }
+
+
+  .counter{
+      background-color: #838fff;
+  }
+
+                /* App-Section */
+
+    .app{
+        background-color: #f9f9ff;
+    }
+  .bye{
+    color: #7b8ee4;
+    border-radius: 5px;
+    border-color: #7b8ee4 ;
+  }
+  .plan{
+    background-color: #ffffff;
+  }
+  .head{
+      height: 100px;
+      width: 100px;
+      background-color:#eeeff9;
+      display: inline-block;
+      border-radius: 50%;
+      line-height: 100%;
+  }
+  .head h2 {
+   
+    margin-top: 25px;
+}
+
+  .list{
+      line-height: 4;
+  }
+
+    /* Team-section */
+    .team{
+        margin: 6%;
+    }
+
+  .team-face img{
+    top: -60px;
+    left: 25px;
+    width: 88px;
+  }
+  .team-member{
+    width: 284px;
+    margin-left: 24px;
+  }
+
+            /* Contact-section */
+
+  .contact{
+      background-color: #f9f9ff;
+  }          
+
+  .contact-1{
+      background-color: #ffffff;
+  }
+
+  .contact-2{
+    margin-top: 12%;
+  }
+
+  .div-1{
+      width: 300px;
+      margin-left: 20px;
+  }
+
+
+  /* Responsive CSS */
+
+  @media(max-width:1399px){
+    .team-member{
+      width: 260px;
+    }
+  }
+  @media(max-width:1290px){
+    .team-member{
+      width: 186px;
+    }
+  }
+  @media(max-width:991px){
+    .team-member{
+      width: 155px;
+    }
+  }
+  @media(max-width:992px){
+    .contact-2 {
+      text-align: center;
+  }
+  }
+  @media(max-width:576px){
+    .contact-2 {
+      text-align: center;
+  }
+  }
+  @media(max-width:768px){
+    .team-member{
+      width: 211px;
+    }
+  }
